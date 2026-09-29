@@ -16,7 +16,7 @@ function App() {
       setScore(0);
     }
 
-    const randomIndex = Math.floor(Math.random() * flashcardslength);
+    const randomIndex = Math.floor(Math.random() * flashcards.length);
     setCardIndex(randomIndex);
   }
 
